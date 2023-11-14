@@ -1,0 +1,21 @@
+<div class="container">
+  <pre>
+  emerald-grid 4.8.2 | coral-combo-box 4.8.5 + combo-box 7 
+  
+  to reproduce: 
+  1) open any combo-box 
+  2) scroll items by mouse wheel or trackpad.
+  </pre>
+  <angular-emerald-grid
+    [columns]="columns"
+    [data]="data"
+    [config]="config"
+  ></angular-emerald-grid>
+
+  <!-- efx-grid 7 + combo-box 7 work fine
+  <efx-grid
+    [config]="configObj"
+    (configured)="gridConfigured($event)"
+    #grid
+  ></efx-grid> -->
+</div>
